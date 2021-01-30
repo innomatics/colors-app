@@ -2,7 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Jest testing and web vitals have been removed.
+Jest testing and web vitals have been removed as not used in this demo.
+
+## Backend API
+
+Prior to starting the app. Be sure to have the API running on localhost on port 8000.
+
+See https://github.com/innomatics/colors
 
 ## Available Scripts
 
