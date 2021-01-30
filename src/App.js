@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import circle from "./circle.svg";
 import "./App.css";
+import Swatch from "./components/Swatch";
 
 function App() {
   const [data, setData] = useState({ srgb_colors: [] });
@@ -22,18 +22,7 @@ function App() {
       <header className="App-header">
         <p>Colors App</p>
       </header>
-      <ul>
-        {data.srgb_colors.map((srgbColor) => (
-          <li>
-            `Red: ${srgbColor.red} Green: ${srgbColor.green} Blue: $
-            {srgbColor.blue}`
-          </li>
-        ))}
-      </ul>
-      {/* 
-
-      <img src={circle} className="App-logo" alt="logo" />
-      */}
+      <Swatch srgbColors={data.srgb_colors} />
     </div>
   );
 }

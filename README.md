@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Jest tesing and web vitals have been removed.
+Jest testing and web vitals have been removed.
 
 ## Available Scripts
 
